@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/Mall/index/index",
+    "pages/Mall/me/index",
+    "pages/Mall/sort/index",
+    "pages/Mall/shopping/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "你好！uniapp",
+    "navigationBarBackgroundColor": "#f0a1a8",
+    "backgroundColor": "#F8F8F8",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "selectedColor": "#f0a1a8",
+    "color": "#99a5bb",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/Mall/index/index",
+        "text": "首页",
+        "iconPath": "./static/imgList/home.png",
+        "selectedIconPath": "./static/imgList/selectHome.png"
+      },
+      {
+        "pagePath": "pages/Mall/sort/index",
+        "text": "分类",
+        "iconPath": "./static/imgList/sort.png",
+        "selectedIconPath": "./static/imgList/selectSort.png"
+      },
+      {
+        "pagePath": "pages/Mall/shopping/index",
+        "text": "购物车",
+        "iconPath": "./static/imgList/shopping.png",
+        "selectedIconPath": "./static/imgList/selectSHopping.png"
+      },
+      {
+        "pagePath": "pages/Mall/me/index",
+        "text": "个人中心",
+        "iconPath": "./static/imgList/me.png",
+        "selectedIconPath": "./static/imgList/selectMe.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

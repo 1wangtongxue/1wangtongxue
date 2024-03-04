@@ -1,0 +1,18 @@
+/* *{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+} */
+.test{
+	border: 1px solid red ;
+}
+.test{
+	width: 750px;
+	height: 100rpx;
+	background-color: blanchedalmond;
+}
+.ps-style{
+	width: 100px;
+	height: 100px;
+}
+

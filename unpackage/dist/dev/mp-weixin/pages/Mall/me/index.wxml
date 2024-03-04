@@ -1,0 +1,1 @@
+<view><view class="_h1">个人中心页面</view><text selectable="{{true}}" user-select="{{true}}">学习uniapp</text><icon type="success"></icon><view class="test">{{title}}</view><button data-event-opts="{{[['tap',[['changetext',['$event']]]]]}}" bindtap="__e">点击</button><image class="ps-style" src="{{ps}}"></image></view>

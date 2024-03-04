@@ -1,0 +1,94 @@
+{
+	// 全局配置，页面的路径、窗口样式、原生的导航栏、底部的原生tabbar等
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/Mall/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path" : "pages/Mall/me/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "个人中心",
+				"enablePullDownRefresh" : true
+			}
+		},
+		{
+			"path" : "pages/Mall/sort/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "分类",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/Mall/shopping/index",
+			"style" : 
+			{
+				"navigationBarTitleText" : "购物车",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/Mall/Qd/Examtype",
+			"style" : 
+			{
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		}
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "你好！uniapp", //导航栏标题
+		"navigationBarBackgroundColor": "#f0a1a8",
+		"backgroundColor": "#F8F8F8",
+		"enablePullDownRefresh":true //是否开启下拉刷新
+	},
+	"uniIdRouter": {},
+	// //模式配置
+	// "condition": {
+	// 	"current": 0,
+	// 	"list": [
+	// 		{
+	// 			"name": "test",
+	// 			"path": "pages/Mall/me/index"
+	// 		}
+	// 	]
+	// },
+	"tabBar": {
+		"selectedColor":"#f0a1a8",
+		"color": "#99a5bb",
+		"borderStyle": "white",
+		// "position": "top",
+		"list": [
+			{
+			 "pagePath": "pages/Mall/index/index",
+			 "text": "首页",
+			 "iconPath":"./static/imgList/home.png",
+			 "selectedIconPath": "./static/imgList/selectHome.png"
+			},
+			{
+			 "pagePath": "pages/Mall/sort/index",
+			 "text": "分类",
+			"iconPath":"./static/imgList/sort.png",
+			"selectedIconPath": "./static/imgList/selectSort.png"
+			},
+			{
+			 "pagePath": "pages/Mall/shopping/index",
+			 "text": "购物车",
+			"iconPath":"./static/imgList/shopping.png",
+			"selectedIconPath": "./static/imgList/selectSHopping.png"
+			},
+			{
+			 "pagePath": "pages/Mall/me/index",
+			 "text": "个人中心",
+			"iconPath":"./static/imgList/me.png",
+			"selectedIconPath": "./static/imgList/selectMe.png"
+			}
+		]
+	}
+}

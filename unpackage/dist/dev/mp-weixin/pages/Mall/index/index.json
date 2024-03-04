@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+    "serch": "/pages/compontes/serch/index"
+  }
+}

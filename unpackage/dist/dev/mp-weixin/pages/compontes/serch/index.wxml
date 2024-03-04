@@ -1,0 +1,1 @@
+<view class="data-v-f052eef8"><input placeholder="请输入内容" data-event-opts="{{[['input',[['__set_model',['','input','$event',[]]]]]]}}" value="{{input}}" bindinput="__e" class="data-v-f052eef8"/><button class="data-v-f052eef8">搜索</button></view>
